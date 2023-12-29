@@ -2,7 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    background-color: #F2F9FE;
 }
 
 /* navbar */
+
+
+
+
+
+
+/* left-section */
+
+/* button */
+.button1 {
+    background-color: #2A4DD0;
+    color: white;
+    border: none;
+    border-radius: 7%;
+    padding: 20px;
+}
+
+.button2 {
+    border: none;
+    text-decoration:underline #2A4DD0 2px;
+}
+
+/* right-section */
+img {
+    max-width: 700px;
+    float: right;
+}
