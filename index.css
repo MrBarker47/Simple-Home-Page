@@ -12,6 +12,7 @@
 
 .container {
     display: inline-flex;
+
 }
 
 
@@ -26,12 +27,21 @@
 .list {
     list-style: none;
     display: flex;
+    align-self: center;
+    justify-content: center;
     gap: 20px;
     margin-right: 720px;
 }
 
-/* left-section */
+.list li {
+    display: flex;
+    align-self: center;
+}
 
+/* left-section */
+.section1 {
+    font-size: 50px;
+}
 
 
 
@@ -56,6 +66,7 @@ img {
     width: 520px;
     max-width: 100%;
     float: right;
+    margin-top: 129px;
 }
 
 .light-container {
