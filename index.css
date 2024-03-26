@@ -117,7 +117,7 @@ input:checked + .slider {
     -webkit-transform: translateX(24px);
     -ms-transform: translateX(24px);
     transform: translateX(24px);
-    /* background: white url('https://i.ibb.co/7JfqXxB/sunny.png'); */
+    background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
     background: s;
     background-repeat: no-repeat;
     background-position: center;
@@ -142,19 +142,61 @@ input:checked + .slider {
 
 
 
+
+
+
+
+
+
 /* button */
-.button1 {
-    background-color: #2A4DD0;
-    color: white;
-    border: none;
-    border-radius: 7%;
-    padding: 20px;
+
+
+.button {
+    margin: 240px 0px 0px 30px;
+    
+    
 }
+
+
+.button1 {
+     background-color: #2A4DD0;
+     color: white;
+     width: 130px;
+     height: 40px;
+     border-radius: 5px;
+     border: none;
+     font-family: 'Lato', sans-serif;
+     font-weight: 500;
+     cursor: pointer;
+     position: relative;
+     display: inline-block;
+  }
 
 .button2 {
     border: none;
     text-decoration:underline #2A4DD0 2px;
+    margin-left: 20px;
 }
+
+
+/* footer */
+.footer-section {
+    display: inline-flex;
+    margin: 70px 0px 0px 30px;
+    
+}
+
+    .svg, .svg1 {
+        position: relative;
+        top: 0.35em;
+    }
+
+.credit2 {
+    margin-left: 30px;
+}
+
+
+
 
 /* right-section */
 img {
