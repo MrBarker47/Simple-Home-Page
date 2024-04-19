@@ -30,11 +30,10 @@ nav {
 
 
 .navbar-container {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     margin: 40px 40px;
 }
-
 
 
 .list {
@@ -45,9 +44,7 @@ nav {
     margin-right: 620px;
 }
 
-/* toggle-light-dark */
 
-   
 
 /* left-section */
 
@@ -75,13 +72,6 @@ nav {
 .simple {
     margin-left: 7px;
 }
-
-
-
-
-
-
-
 
 
 /* button */
@@ -135,68 +125,85 @@ margin-left: 20px;
 /* right-section */
 
 img {
+    /* float: right; */
+    margin-top: 30px;
+    margin-left: 450px;
+    height: 520px;
+    width: 420px;
+    float: right;
+    
+}
+
+
+
+ 
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 40px;
+}
+
+
+.container li {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 4px 0px 20px 40px;
+}
+
+
+
+  img {
     float: right;
     margin-top: 30px;
-    height: 620px;
+    height: 570px;
+    width: 570px;
     margin-right: 220px;
 }
 
 
-  /* body.dark {
-    background-color: #292c35;
-  } */
-  
-  
-  /* .checkbox {
-    opacity: 0;
-    position: absolute;
-  }
-  
-  .label {
-    background-color: #111;
+.list {
+  list-style: none;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-right: 620px;
+}
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+  .navbar-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    border-radius: 50px;
-    position: relative;
-    padding: 5px;
-    width: 50px;
-    height: 26px;
-    transform: scale(1.5);
-  }
-  
-  .ball {
-    background-color: #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    height: 22px;
-    width: 22px;
-    transition: transform 0.2s linear;
-  }
-  
-  .checkbox:checked + .label .ball {
-    transform: translateX(24px);
-  }
-  
-  .fa-moon {
-    color: #f1c40f;
-  }
-  
-  .fa-sun {
-    color: #f39c12;
-  }
-  
-  a {
-    text-decoration: underline;
-    color: inherit;
-  }
-   */
+    margin: 40px 40px;
+}
 
 
 
-/* media screen and (min-width: 720px) */
+  img {
+    float: right;
+    margin-top: 20px;
+    height: 570px;
+    width: 570px;
+    margin-right: 220px;
+  }
+
+
+  .list {
+    list-style: none;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-right: 620px;
+}
+
+
+}
+
 
 
 
