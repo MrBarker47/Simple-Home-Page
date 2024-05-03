@@ -9,7 +9,7 @@
 }
 
 
-:root {
+/* :root {
   --clr-light: #fdffc4;
   --clr-dark: #00332a;
   --clr-primary: #dbffa2;
@@ -22,10 +22,10 @@
   --ff-title: "Playfair Display", serif;
   --ff-body: "Assistant", sans-serif;
 
-}
+} */
 
 
-.darkmode {
+.checkbox {
   --clr-light: #fdffc4;
   --clr-dark: #00332a;
   --clr-primary: #202302;
@@ -42,20 +42,6 @@ body {
   
 }
 
-.dark-mode-toggle {
-  position: absolute;
-  z-index: 100;
-  top: 1em;
-  right: 1em;
-  color: var(--foreground);
-  border: 2px solid currentColor;
-  padding: 4px;
-  background: transparent;
-  cursor: pointer;
-  border-radius: 5px;
-  width: 30px;
-  height: 30px;
-}
 
 /* navbar */
 
