@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFFFFF;
+    
     font-family: Poppins;
 }
 
@@ -36,8 +36,25 @@
   --background: var(--clr-dark);
 }
 
-button {
-  border: none;
+body {
+  background: var(--background);
+  color: var(--foreground);
+  
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  z-index: 100;
+  top: 1em;
+  right: 1em;
+  color: var(--foreground);
+  border: 2px solid currentColor;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
 }
 
 /* navbar */
@@ -222,13 +239,9 @@ img {
 
 @media screen and (min-width: 1024px) {
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #FFFFFF;
-    font-family: Poppins;
-}
+
+
+
 
 
 
@@ -349,6 +362,10 @@ margin-left: 20px;
 
 
 @media screen and (min-width: 1280px) {
+ 
+
+
+
   .navbar-container {
     display: flex;
     justify-content: space-between;
