@@ -19,6 +19,9 @@ body.dark h1, body.dark {
 
 /* navbar */
 
+nav {
+  background-color: #191515;
+}
 
 .container {
     display: inline-flex;
@@ -51,7 +54,6 @@ body.dark h1, body.dark {
 
 
 
-/* left-section */
 
 
 .left {
@@ -79,7 +81,7 @@ body.dark h1, body.dark {
 }
 
 
-/* button */
+
 .button {
 margin-top: 50px;
 margin-left: 20px;    
@@ -107,7 +109,7 @@ margin-left: 20px;
 }
 
 
-/* footer */
+
 .footer-section {
     display: inline-flex;
     margin: 40px 0px 0px 50px;
@@ -127,7 +129,7 @@ margin-left: 20px;
 
 
 
-/* right-section */
+
 
 img {
     /* float: right; */
@@ -193,7 +195,7 @@ img {
 
 
 
-
+/* 
 
 
 
@@ -302,7 +304,7 @@ margin-left: 20px;
 }
 
 
- 
+  */
 
 
 
