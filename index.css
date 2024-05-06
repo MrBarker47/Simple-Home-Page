@@ -81,13 +81,11 @@ nav {
 
 .span {
   /* display: flex; */
-  width: 430px;
-  margin-top: 50px;
+  width: 250px;
+   margin-top: 50px;
+  margin-right: 0px;
 }
 
-.simple {
-    margin-left: 7px;
-}
 
 
 
@@ -144,8 +142,8 @@ img {
     /* float: right; */
     margin-top: 30px;
     margin-left: 450px;
-    height: 520px;
-    width: 420px;
+    height: 400px;
+    width: 340px;
     float: right;
     
 }
@@ -215,10 +213,10 @@ img {
   }
 
 
-#navbar{ 
+/* #navbar{ 
   display: flex;
   margin-left:100px;
-}
+} */
 
 .darkMode {
   margin-bottom: 20px;
@@ -229,6 +227,133 @@ img {
 .svg {
   margin-left: 20px;
 }
+
+
+nav {
+  display: flex;
+}
+
+img {
+  float: right;
+  margin-top: 20px;
+  height: 570px;
+  width: 570px;
+  margin-right: 220px;
+}
+
+.darkMode {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+
+.checkbox {
+opacity: 0;
+position: absolute;
+
+}
+
+.checkbox-label {
+background-color: #111;
+margin-bottom: 20px;
+width: 50px;
+height: 26px;
+border-radius: 50px;
+padding: 5px;
+cursor: pointer;
+
+}
+
+
+
+.collapse {
+  list-style: none;
+  justify-content: center;
+  margin-right: 220px;
+  margin-top: 30px;
+
+  
+}
+
+
+
+.left {
+margin-left:60px;
+margin-top: 54px;
+}
+
+
+.section1 {
+display: flex;
+font-size: 40px;
+margin-right: 20px;
+max-width: 120px;
+margin-top: 20px;
+word-spacing: 20px;
+}
+
+.span {
+
+width: 430px;
+margin-top: 50px;
+}
+
+
+
+.simple {
+margin-left: 7px;
+}
+
+
+
+.button {
+margin-top: 50px;
+margin-left: 20px;    
+}
+
+
+.button1 {
+ background-color: #2A4DD0;
+ color: white;
+ width: 150px;
+ height: 40px;
+ border-radius: 5px;
+ border: none;
+ font-family: 'Lato', sans-serif;
+ font-weight: 500;
+ cursor: pointer;
+ position: relative;
+ display: inline-block;
+}
+
+.button2 {
+border: none;
+text-decoration:underline #2A4DD0 2px;
+margin-left: 50px;
+}
+
+
+
+.footer-section {
+display: inline-flex;
+margin: 40px 0px 0px 50px;
+font-size: small;
+
+}
+
+.svg, .svg1 {
+    position: relative;
+    top: 0.35em;
+}
+
+.svg {
+  margin-left: 20px;
+}
+
+.credit2 {
+margin-left: 30px;
+}
+
 
 }
 
@@ -308,6 +433,8 @@ img {
 width: 430px;
 margin-top: 50px;
 }
+
+
 
 .simple {
   margin-left: 7px;
